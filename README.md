@@ -27,7 +27,7 @@ The results below on the Omniglot dataset K = 10, 30,50 show that the former ach
 Run Perturb_sm.py with the relevant arguments. For example, 
 python Perturb_sm.py --perturb Normal --K 10 --ds mnist
 
-### Acknowledgment
+#### Acknowledgment
 This code is based on <a href="https://www.w3schools.com](https://github.com/GuyLor/Direct-VAE)">Direct-VAE</a>
 
 
