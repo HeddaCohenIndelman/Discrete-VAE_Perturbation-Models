@@ -1,8 +1,8 @@
 # Discrete-VAE_Perturbation-Models
 
-This repository shows an experiment from the paper "On The Representation Properties Of The Perturb-Softmax And The Perturb-Argmax Probability Distribution"
+This repository shows an experiment from the paper "On The Representation Properties Of The Perturb-Softmax And The Perturb-Argmax Probability Distribution" https://arxiv.org/abs/2406.02180
 
-It demonstrates the advantage of the Gaussian-Softmax over the commonly used Gumbel-Softmax. It exhibits that, compared to the Gumbel-Softmax, the Gaussian-Softmax enjoys a faster convergence rate and better approximate discrete distributions.
+It demonstrates the advantage of the Gaussian-Softmax over the commonly used Gumbel-Softmax. It exhibits that, compared to the Gumbel-Softmax, the Gaussian-Softmax enjoys a faster convergence rate and better approximate discrete distributions. Please refer to the paper for a theoretical analysis of the properties of softmax (and argmax) perturbation models
 
 ## Experiment description
 We compared the training ELBO-based loss of categorical Variational-Autoencoders for N=10 variables, each is a K-dimensional categorical variable, K =[10,30,50] on the binarized MNIST, the Fashion-MNIST, and the Omniglot datasets for different smooth perturbation distributions.  
