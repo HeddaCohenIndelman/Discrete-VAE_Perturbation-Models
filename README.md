@@ -23,8 +23,12 @@ The results below on the Omniglot dataset K = 10, 30,50 show that the former ach
 
 <img src="https://github.com/user-attachments/assets/ccb4b361-ef9f-4e6b-858f-bec7119a4a3b" width="200">
 
-### To run the code, run 
+### To run the code
+Run Perturb_sm.py with the relevant arguments. For example, 
+python Perturb_sm.py --perturb Normal --K 10 --ds mnist
 
+### Acknowledgment
+This code is based on <a href="https://www.w3schools.com](https://github.com/GuyLor/Direct-VAE)">Direct-VAE</a>
 
 
 
